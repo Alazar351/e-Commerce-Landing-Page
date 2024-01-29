@@ -7,7 +7,7 @@ import "../styles/productSlide.css";
 
 import { Navigation } from "swiper/modules";
 
-import Card from "./Card.jsx";
+import Card from "./card.jsx";
 
 export default function ProductSlide() {
   return (
