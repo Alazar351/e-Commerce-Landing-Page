@@ -1,0 +1,209 @@
+.section {
+  position: relative;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 377px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.newsletter .rightArrow {
+  width: 132px;
+  height: 11px;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 45px 0px 0px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  margin-left: 30px;
+}
+.newsletter .email:focus {
+  outline: none;
+}
+
+.newsletter .email {
+  width: 819px;
+  height: 40px;
+  border-radius: 1px;
+  color: #727272;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 0px 0px 23px;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid black;
+  font-style: italic;
+}
+
+.newsletter .pale {
+  color: #828282;
+  font-size: 14px;
+  line-height: 21.5px;
+  margin: 0px 0px 10px;
+}
+
+.newsletter h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.5px;
+  text-transform: uppercase;
+}
+.thirdText {
+  width: 100%;
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 21.5px;
+  margin-top: 90px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.thirdText .pale {
+  text-align: center;
+  color: #828282;
+  line-height: 21.5px;
+  margin: 0px 0px 10px;
+}
+
+.thirdText .intro h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.secondText {
+  width: 100%;
+  height: 893px;
+  text-align: left;
+  display: flex;
+}
+
+.secondText .img {
+  width: 875px;
+  height: 1008px;
+  margin-top: -115px;
+  z-index: 1;
+}
+.secondText .img img {
+  width: 797px;
+}
+
+.secondText .promotion {
+  width: 615px;
+  height: 606px;
+  padding: 115px 0px 0px;
+  line-height: 21.5px;
+}
+
+.secondText .top {
+  color: #c92c61;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.secondText h3 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 17px 0px 0px;
+  line-height: 63px;
+  text-transform: uppercase;
+}
+
+.secondText .price {
+  display: flex;
+  align-items: start;
+  color: #c92c61;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 51px;
+  margin: 45px 0px 0px;
+}
+.secondText .sign {
+  color: #333333;
+  font-size: 27px;
+}
+
+.secondText .pale {
+  color: #828282;
+  font-size: 14px;
+  line-height: 30px;
+  margin: 45px 0px 0px;
+}
+
+.secondText .pale span {
+  display: block;
+  margin-top: 45px;
+}
+
+.secondText {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.firstText {
+  position: absolute;
+  top: 260px;
+  left: 228px;
+  z-index: 1;
+  max-width: 600px;
+}
+.firstText.top {
+  color: #262626;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.firstText.pale {
+  color: #828282;
+  font-family: var(--font-droid-serif);
+  font-size: 15px;
+  line-height: 21.5px;
+  margin: 0px 0px 10px;
+  text-align: left;
+}
+
+.rightArrow {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #323232;
+  font-family: var(--font-montserrat);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 11px;
+  margin: 25px 0px 0px;
+  padding: 0px 50px 0px 0px;
+  text-align: left;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.firstText h3 {
+  color: #262626;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 99px;
+  text-align: left;
+  text-transform: capitalize;
+}
